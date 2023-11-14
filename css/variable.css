@@ -1,0 +1,15 @@
+:root {
+    --font24: 24px;
+    --font18: 18px;
+    --font16: 16px;
+    --font14: 14px;
+    --font-regular: regular;
+    --font-bold: bold;
+    --color1: #1C5550;
+    --color2: #91B599;
+    --color3: #C3B97F;
+    --color4: #DFD9D9; 
+    --color5: rgba(0, 0, 0, 0.20);  
+    --color6: rgba(223, 217, 217, 0.40);
+    --border-radius: 4px;
+}
