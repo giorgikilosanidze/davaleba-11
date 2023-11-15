@@ -96,14 +96,14 @@ aside {
     font-size: var(--font16);
     font-weight: var(--font-regular);
     line-height: 27px;
-    margin: 38px 115px 16px 40px;
+    margin: 38px 0 16px 40px;
 }
 
 .aside_ul {
     display: flex;
     flex-direction: column;
     row-gap: 5px;
-    margin: 0 149px 54px 48px;
+    margin: 0 0 54px 48px;
 }
 
 .active,
@@ -116,7 +116,10 @@ aside {
 
 .active {
     font-weight: var(--font-bold);
-    border-bottom: 1px solid var(--color2);
+    text-decoration-line: underline;
+    /* text-decoration-color: color(var(--color2)); */
+    text-underline-offset: 7.5px;
+    /* border-bottom: 1px solid var(--color2); */
 }
 
 .no_active {
